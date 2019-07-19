@@ -1,0 +1,49 @@
+<!--   Suggester commented out and disabled 
+
+<requestHandler name="/suggest" class="solr.SearchHandler" startup="lazy">
+  <lst name="defaults">
+    <str name="suggest">true</str>
+    <str name="suggest.count">10</str>
+  </lst>
+  <arr name="components">
+    <str>suggest</str>
+  </arr>
+</requestHandler>
+
+<searchComponent name="suggest" class="solr.SuggestComponent">
+  <lst name="suggester">
+    <str name="name">titleSuggest</str>
+    <str name="lookupImpl">BlendedInfixLookupFactory</str>
+    <str name="indexPath">titleSuggesterIndexDir</str>
+    <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+    <str name="field">title_suggest</str>
+    <str name="buildOnStartup">false</str>
+    <str name="buildOnCommit">false</str>
+    <str name="buildOnOptimize">true</str>
+    <str name="suggestAnalyzerFieldType">text_suggest</str>
+  </lst>
+  <lst name="suggester">
+    <str name="name">subjectSuggest</str>
+    <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+    <str name="lookupImpl">BlendedInfixLookupFactory</str>
+    <str name="indexPath">authorSuggesterIndexDir</str>
+    <str name="field">subject_suggest</str>
+    <str name="buildOnStartup">false</str>
+    <str name="buildOnCommit">false</str>
+    <str name="buildOnOptimize">true</str>
+    <str name="suggestAnalyzerFieldType">text_suggest</str>
+  </lst>
+  <lst name="suggester">
+    <str name="name">authorSuggest</str>
+    <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+    <str name="lookupImpl">BlendedInfixLookupFactory</str>
+    <str name="indexPath">subjectSuggesterIndexDir</str>
+    <str name="field">author_suggest</str>
+    <str name="buildOnStartup">false</str>
+    <str name="buildOnCommit">false</str>
+    <str name="buildOnOptimize">true</str>
+    <str name="suggestAnalyzerFieldType">text_suggest</str>
+  </lst>
+</searchComponent>
+-->
+
