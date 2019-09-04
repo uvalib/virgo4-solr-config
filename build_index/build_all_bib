@@ -1,0 +1,12 @@
+#!/bin/bash
+
+BASEBINDIR=/lib_content23/record_source_for_solr_cores/bin
+
+solrmarc_dir=$BASEBINDIR/solrmarc3
+solrmarc_jar_name=`ls -t $solrmarc_dir  | egrep "solrmarc_core" | egrep "[.]jar$" | head -1`
+solrmarc_jar="$solrmarc_dir/$solrmarc_jar_name"
+THREAD_OPTS="-Dsolrmarc.indexer.threadcount=4 -Dsolrmarc.track.solr.progress=true"
+
+
+/lib_content23/java_1.8.0/jdk1.8.0/bin/java $THREAD_OPTS -jar "$solrmarc_jar" IndexDriver -dir /lib_content23/record_source_for_solr_cores/bib/bin/solrmarc3,/lib_content23/solr73_virgo4/virgo4devhome/ -config solr7_index.properties,rda_index_and_maps.properties,available_index.properties  -solrj /lib_content23/solr73_virgo4/solr-7.3.0/dist/solrj-lib  -u http://virgo4-solr-staging-master-private.internal.lib.virginia.edu:8080/solr/test_core /lib_content23/record_source_for_solr_cores/bib/data/full_dump_patched/uva_*.mrc
+
