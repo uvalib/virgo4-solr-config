@@ -1,0 +1,10 @@
+#!/bin/bash
+
+BASEBINDIR=/lib_content23/record_source_for_solr_cores/bin
+
+solrmarc_dir=$BASEBINDIR/solrmarc3
+solrmarc_jar_name=`ls -t $solrmarc_dir  | egrep "solrmarc_core" | egrep "[.]jar$" | head -1`
+solrmarc_jar="$solrmarc_dir/$solrmarc_jar_name"
+
+java -jar "$solrmarc_jar" IndexDriver -dir /lib_content23/record_source_for_solr_cores/bib/bin/solrmarc3,/lib_content23/record_source_for_solr_cores/hathi/bin/solrmarc3,/lib_content23/solr73_virgo4/virgo4devhome/ -config /lib_content23/solr73_virgo4/virgo4devhome/solr7_index.properties,/lib_content23/solr73_virgo4/virgo4devhome/solr7_hathi_index.properties,/lib_content23/solr73_virgo4/virgo4devhome/rda_index_and_maps.properties   -u http://libsvr40.lib.virginia.edu:8986/solr/test_core /lib_content23/record_source_for_solr_cores/hathi/data/full_dump/hathi_0*.mrc
+
