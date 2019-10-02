@@ -249,6 +249,9 @@
      </processor>
  
      <processor class="solr.LogUpdateProcessorFactory" />
+     <processor class="solr.TimestampUpdateProcessorFactory">
+       <str name="fieldName">timestamp</str>
+     </processor>
      <processor class="solr.RunUpdateProcessorFactory" />
    </updateRequestProcessorChain>
 
