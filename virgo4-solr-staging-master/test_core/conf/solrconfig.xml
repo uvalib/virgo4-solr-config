@@ -206,6 +206,10 @@
        <maxTime>${solr.autoSoftCommit.maxTime:-1}</maxTime> 
      </autoSoftCommit> -->
 
+     <commitWithin>
+       <softCommit>false</softCommit>
+     </commitWithin>
+
   </updateHandler>
 
 
