@@ -29,13 +29,13 @@
 <copyField source="subject_a" dest="subject_suggest" />
 -->
 
-<dynamicField name="*_ssort" type="string" indexed="true" stored="false" multiValued="false" sortMissingLast="true"/>
-<dynamicField name="*_isort" type="long" indexed="true" stored="false" multiValued="false" />
+<dynamicField name="*_sort" type="string" indexed="true" stored="true" multiValued="false" docValues="true" sortMissingLast="true"/>
+<dynamicField name="*_isort" type="long" indexed="true" stored="true" multiValued="false" docValues="true"/>
 <dynamicField name="*_ssort_stored" type="ignored" indexed="false" stored="false" multiValued="false" />
 <dynamicField name="*_isort_stored" type="ignored" indexed="false" stored="false" multiValued="false" />
 <copyField source="*_ssort_stored" dest="*_sort" />
-<copyField source="*_ssort_stored" dest="*_ssort" />
-<copyField source="*_isort_stored" dest="*_sort" />
+<copyField source="*_ssort" dest="*_sort" />
+<copyField source="*_isort" dest="*_isort" />
 <copyField source="*_isort_stored" dest="*_isort" />
 <dynamicField name="*_t" type="text" indexed="true" stored="false" multiValued="true" />
 <dynamicField name="*_t_stored" type="ignored" indexed="false" stored="false" multiValued="true" />
@@ -117,7 +117,7 @@
 <copyField source="*_str_stored_single" dest="*_s" />
 <copyField source="*_str_single" dest="*_str" />
 
-<dynamicField name="*_f" type="string" indexed="true" stored="false" multiValued="true" />
+<dynamicField name="*_f" type="string" indexed="true" stored="false" docValues="true" multiValued="true" />
 <dynamicField name="*_f_stored" type="ignored" indexed="false" stored="false" multiValued="true" />
 <dynamicField name="*_f_single" type="ignored" indexed="false" stored="false" multiValued="false" />
 <dynamicField name="*_f_stored_single" type="ignored" indexed="false" stored="false" multiValued="false" />
