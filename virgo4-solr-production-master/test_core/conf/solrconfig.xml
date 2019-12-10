@@ -315,7 +315,7 @@
     <filterCache class="solr.FastLRUCache"
                  size="512"
                  initialSize="512"
-                 autowarmCount="0"/>
+                 autowarmCount="128"/>
 
     <!-- Query Result Cache
 
@@ -328,7 +328,7 @@
     <queryResultCache class="solr.LRUCache"
                      size="512"
                      initialSize="512"
-                     autowarmCount="0"/>
+                     autowarmCount="128"/>
    
     <!-- Document Cache
 
@@ -374,6 +374,41 @@
         queryResultCache. 
      -->
    <queryResultMaxDocsCached>200</queryResultMaxDocsCached>
+
+    <!-- QuerySenderListener takes an array of NamedList and executes a
+         local query request for each NamedList in sequence.
+      -->
+    <listener event="newSearcher" class="solr.QuerySenderListener">
+      <arr name="queries">
+           <lst><str name="q">_query_:"{!edismax}(a and of the for)"</str>
+                    <str name="fq">{!collapse field=work_title2_key_sort}</str>
+                    <str name="fq">pool_f:catalog</str>
+                    <str name="fq">shadowed_location_f:VISIBLE</str>
+                    <str name="qt">search</str>
+                    <str name="defType">lucene</str>
+           </lst>
+        <!--
+           <lst><str name="q">solr</str><str name="sort">price asc</str></lst>
+           <lst><str name="q">rocks</str><str name="sort">weight asc</str></lst>
+          -->
+      </arr>
+    </listener>
+    <listener event="firstSearcher" class="solr.QuerySenderListener">
+      <arr name="queries">
+           <lst><str name="q">_query_:"{!edismax}(a and of the for)"</str>
+                    <str name="fq">{!collapse field=work_title2_key_sort}</str>
+                    <str name="fq">pool_f:catalog</str>
+                    <str name="fq">shadowed_location_f:VISIBLE</str>
+                    <str name="qt">search</str>
+                    <str name="defType">lucene</str>
+           </lst>
+        <!--
+        <lst>
+          <str name="q">static firstSearcher warming in solrconfig.xml</str>
+        </lst>
+        -->
+      </arr>
+    </listener>
 
     <!-- Use Cold Searcher
 
