@@ -46,9 +46,9 @@
   author_added_entry_tl^5
   author_directors_t
   author_directors_tp^2
-  subjects_t^5
-  subjects_tp^10
-  subjects_tl^15
+  subject_t^5
+  subject_tp^10
+  subject_tl^15
   subject_summary_t
   subject_summary_tp^2
   subject_summary_tl^2
@@ -96,9 +96,9 @@
   author_added_entry_tl^5
   author_directors_t
   author_directors_tp^2
-  subjects_t^5
-  subjects_tp^10
-  subjects_tl^15
+  subject_t^5
+  subject_tp^10
+  subject_tl^15
   subject_summary_t
   subject_summary_tp^2
   subject_summary_tl^2
@@ -201,9 +201,9 @@
 </str>
 
 <str name="subject_qf">
-  subjects_t^5
-  subjects_tp^10
-  subjects_tl^15
+  subject_t^5
+  subject_tp^10
+  subject_tl^15
   subject_summary_t
   subject_summary_tp^2
   subject_summary_tl^2
@@ -212,9 +212,9 @@
   subject_era_tl^6
 </str>
 <str name="subject_pf">
-  subjects_t^5
-  subjects_tp^10
-  subjects_tl^15
+  subject_t^5
+  subject_tp^10
+  subject_tl^15
   subject_summary_t
   subject_summary_tp^2
   subject_summary_tl^2
@@ -259,7 +259,7 @@
   author_tl^10
   author_added_entry_tl^5
   author_directors_tl
-  subjects_tl^15
+  subject_tl^15
   subject_summary_tl^2
   subject_era_tl
 </str>
@@ -275,7 +275,7 @@
   author_tl^10
   author_added_entry_tl^5
   author_directors_tl
-  subjects_tl^15
+  subject_tl^15
   subject_summary_tl^2
   subject_era_tl
 </str>
@@ -312,12 +312,12 @@
 </str>
 
 <str name="subject_startswith_qf">
-  subjects_tl^15
+  subject_tl^15
   subject_summary_tl^2
   subject_era_tl^6
 </str>
 <str name="subject_startswith_pf">
-  subjects_tl^15
+  subject_tl^15
   subject_summary_tl^2
   subject_era_tl^4
 </str>
@@ -334,7 +334,7 @@
   author_tp^8
   author_added_entry_tp^5
   author_directors_tp^2
-  subjects_tp^10
+  subject_tp^10
   subject_summary_tp^2
   subject_era_tp^4
 </str>
@@ -350,7 +350,7 @@
   author_tp^8
   author_added_entry_tp^5
   author_directors_tp^2
-  subjects_tp^10
+  subject_tp^10
   subject_summary_tp^2
   subject_era_tp^4
 </str>
@@ -387,12 +387,12 @@
 </str>
 
 <str name="subject_nostem_qf">
-  subjects_tp^10
+  subject_tp^10
   subject_summary_tp^2
   subject_era_tp^4
 </str>
 <str name="subject_nostem_pf">
-  subjects_tp^10
+  subject_tp^10
   subject_summary_tp^2
   subject_era_tp^4
 </str>
