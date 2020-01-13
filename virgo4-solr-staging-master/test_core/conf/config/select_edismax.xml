@@ -1,4 +1,4 @@
-<str name="mm">6&lt;0%</str>
+<str name="mm">6&lt;80%</str>
 <str name="qf">
   id^100
   isbn_isbn^100
@@ -9,35 +9,30 @@
   title_t^10
   title_tl^15
   title_tp^15
-  title_e^20
   title_sub_t^5
   title_sub_tl^8
   title_sub_tp^8
-  title_sub_e^10
+  full_title_t^3
+  full_title_tl^5
+  full_title_tp^5
   title_vern_t^3
   title_vern_tl^5
   title_vern_tp^5
-  title_vern_e^8
   title_added_entry_t
   title_added_entry_tl^2
   title_added_entry_tp^2
-  title_added_entry_e^3
   title_series_t
   title_series_tl^2
   title_series_tp^2
-  title_series_e^3
   title_notes_t
   title_notes_tl^2
   title_notes_tp^2
-  title_notes_e^3
   title_uniform_t
   title_uniform_tl^2
   title_uniform_tp^2
-  title_uniform_e^3
   title_alternate_t
   title_alternate_tl^2
   title_alternate_tp^2
-  title_alternate_e^3
   author_t^5
   author_tp^8
   author_tl^10
@@ -59,35 +54,30 @@
   title_t^10
   title_tl^15
   title_tp^15
-  title_e^20
   title_sub_t^5
   title_sub_tl^8
   title_sub_tp^8
-  title_sub_e^10
+  full_title_t^3
+  full_title_tl^5
+  full_title_tp^5
   title_vern_t^3
   title_vern_tl^5
   title_vern_tp^5
-  title_vern_e^8
   title_added_entry_t
   title_added_entry_tl^2
   title_added_entry_tp^2
-  title_added_entry_e^3
   title_series_t
   title_series_tl^2
   title_series_tp^2
-  title_series_e^3
   title_notes_t
   title_notes_tl^2
   title_notes_tp^2
-  title_notes_e^3
   title_uniform_t
   title_uniform_tl^2
   title_uniform_tp^2
-  title_uniform_e^3
   title_alternate_t
   title_alternate_tl^2
   title_alternate_tp^2
-  title_alternate_e^3
   author_t^5
   author_tp^8
   author_tl^10
@@ -109,69 +99,59 @@
   title_t^10
   title_tl^15
   title_tp^15
-  title_e^20
   title_sub_t^5
   title_sub_tl^8
   title_sub_tp^8
-  title_sub_e^10
+  full_title_t^3
+  full_title_tl^5
+  full_title_tp^5
   title_vern_t^3
   title_vern_tl^5
   title_vern_tp^5
-  title_vern_e^8
   title_added_entry_t
   title_added_entry_tl^2
   title_added_entry_tp^2
-  title_added_entry_e^3
   title_series_t
   title_series_tl^2
   title_series_tp^2
-  title_series_e^3
   title_notes_t
   title_notes_tl^2
   title_notes_tp^2
-  title_notes_e^3
   title_uniform_t
   title_uniform_tl^2
   title_uniform_tp^2
-  title_uniform_e^3
   title_alternate_t
   title_alternate_tl^2
   title_alternate_tp^2
-  title_alternate_e^3
 </str>
 <str name="title_pf">
   title_t^10
   title_tl^15
   title_tp^15
-  title_e^20
   title_sub_t^5
   title_sub_tl^8
   title_sub_tp^8
-  title_sub_e^10
+  full_title_t^3
+  full_title_tl^5
+  full_title_tp^5
   title_vern_t^3
   title_vern_tl^5
   title_vern_tp^5
-  title_vern_e^8
   title_added_entry_t
   title_added_entry_tl^2
   title_added_entry_tp^2
-  title_added_entry_e^3
   title_series_t
   title_series_tl^2
   title_series_tp^2
-  title_series_e^3
   title_notes_t
   title_notes_tl^2
   title_notes_tp^2
-  title_notes_e^3
   title_uniform_t
   title_uniform_tl^2
   title_uniform_tp^2
-  title_uniform_e^3
   title_alternate_t
   title_alternate_tl^2
   title_alternate_tp^2
-  title_alternate_e^3
 </str>
 
 <str name="author_qf">
@@ -250,6 +230,7 @@
 <str name="startswith_qf">
   title_tl^15
   title_sub_tl^8
+  full_title_tl^5
   title_vern_tl^5
   title_added_entry_tl^2
   title_series_tl^2
@@ -266,6 +247,7 @@
 <str name="startswith_pf">
   title_tl^15
   title_sub_tl^8
+  full_title_tl^5
   title_vern_tl^5
   title_added_entry_tl^2
   title_series_tl^2
@@ -282,6 +264,7 @@
 <str name="title_startswith_qf">
   title_tl^15
   title_sub_tl^8
+  full_title_tl^5
   title_vern_tl^5
   title_added_entry_tl^2
   title_series_tl^2
@@ -292,6 +275,7 @@
 <str name="title_startswith_pf">
   title_tl^15
   title_sub_tl^8
+  full_title_tl^5
   title_vern_tl^5
   title_added_entry_tl^2
   title_series_tl^2
@@ -325,6 +309,7 @@
 <str name="nostem_qf">
   title_tp^15
   title_sub_tp^8
+  full_title_tp^5
   title_vern_tp^5
   title_added_entry_tp^2
   title_series_tp^2
@@ -341,6 +326,7 @@
 <str name="nostem_pf">
   title_tp^15
   title_sub_tp^8
+  full_title_tp^5
   title_vern_tp^5
   title_added_entry_tp^2
   title_series_tp^2
@@ -357,6 +343,7 @@
 <str name="title_nostem_qf">
   title_tp^15
   title_sub_tp^8
+  full_title_tp^5
   title_vern_tp^5
   title_added_entry_tp^2
   title_series_tp^2
@@ -367,6 +354,7 @@
 <str name="title_nostem_pf">
   title_tp^15
   title_sub_tp^8
+  full_title_tp^5
   title_vern_tp^5
   title_added_entry_tp^2
   title_series_tp^2

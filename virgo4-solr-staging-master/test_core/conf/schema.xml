@@ -75,7 +75,7 @@
  http://wiki.apache.org/solr/SchemaXml
 -->
 
-<schema name="dueber_blacklight_marc_solr" version="0.1">
+<schema name="dueber_blacklight_marc_solr" version="1.6">
   <!-- attribute "name" is the name of this schema and is only used for display purposes.
        version="x.y" is Solr's version number for the schema syntax and
        semantics.  It should not normally be changed by applications.
@@ -97,6 +97,7 @@
   <!-- Load up the field types -->
   &primative_types;
   &text_types;
+  &date_types;
   &numeric_types;
   &library_types;
   &delimited_types;
