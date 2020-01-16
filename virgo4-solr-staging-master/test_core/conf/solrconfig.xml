@@ -53,6 +53,7 @@
 
 
   <lib dir="../../lib" regex=".*\.jar"/>
+  <lib dir="conf/lib" regex=".*\.jar"/>
 
   <!-- The DirectoryFactory to use for indexes.
        
@@ -192,11 +193,10 @@
          If the updateLog is enabled, then it's highly recommended to
          have some sort of hard autoCommit to limit the log size.
       -->
-
-     <autoCommit>
-       <maxTime>60000</maxTime>
-       <openSearcher>false</openSearcher>
-     </autoCommit>
+     <autoCommit> 
+       <maxTime>${solr.autoCommit.maxTime:60000}</maxTime> 
+       <openSearcher>false</openSearcher> 
+     </autoCommit> 
 
     <!-- softAutoCommit is like autoCommit except it causes a
          'soft' commit which only ensures that changes are visible
@@ -219,44 +219,10 @@
        fields to be used for suggestions
        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
    <updateRequestProcessorChain name="multiple-clones" default="true" >
-     <processor class="solr.CloneFieldUpdateProcessorFactory">
-       <lst name="source">
-         <str name="fieldRegex">^author_.*</str>
-         <lst name="exclude">
-           <str name="fieldRegex">author_ssort_.*</str>
-         </lst>
-       </lst>
-       <str name="dest">author_suggest</str>
-     </processor>
-     <processor class="solr.CloneFieldUpdateProcessorFactory">
-       <lst name="source">
-         <str name="fieldRegex">^subject_.*</str>
-         <lst name="exclude">
-           <str name="fieldRegex">subject_summary_.*</str>
-         </lst>
-       </lst>
-       <str name="dest">subject_suggest</str>
-     </processor>
-     <processor class="solr.CloneFieldUpdateProcessorFactory">
-       <lst name="source">
-         <str name="fieldRegex">^title_.*</str>
-         <lst name="exclude">
-           <str name="fieldRegex">title_ssort_.*</str>
-         </lst>
-         <lst name="exclude">
-           <str name="fieldRegex">title_notes_.*</str>
-         </lst>
-       </lst>
-       <str name="dest">title_suggest</str>
-     </processor>
-     <processor class="solr.UniqFieldsUpdateProcessorFactory">
-       <str name="fieldRegex">.*_suggest</str>
-     </processor>
- 
      <processor class="solr.LogUpdateProcessorFactory" />
-     <processor class="solr.TimestampUpdateProcessorFactory">
-       <str name="fieldName">timestamp</str>
-     </processor>
+     <!-- <processor class="solr.MyTemplateUpdateProcessorFactory" >
+         <str name="field">full_{pool_f_stored}_title_f:{full_title_tsearchf_stored}</str>
+     </processor>  -->
      <processor class="solr.RunUpdateProcessorFactory" />
    </updateRequestProcessorChain>
 
@@ -384,7 +350,6 @@
                     <str name="fq">{!collapse field=work_title2_key_sort}</str>
                     <str name="fq">pool_f:catalog</str>
                     <str name="fq">shadowed_location_f:VISIBLE</str>
-                    <str name="qt">search</str>
                     <str name="defType">lucene</str>
            </lst>
         <!--
@@ -399,7 +364,6 @@
                     <str name="fq">{!collapse field=work_title2_key_sort}</str>
                     <str name="fq">pool_f:catalog</str>
                     <str name="fq">shadowed_location_f:VISIBLE</str>
-                    <str name="qt">search</str>
                     <str name="defType">lucene</str>
            </lst>
         <!--
@@ -688,7 +652,7 @@
       <str name="enable">${enable.master:false}</str>
       <str name="replicateAfter">commit</str>
       <str name="replicateAfter">optimize</str>
-      <str name="confFiles">solrconfig.xml,config/select_edismax.xml,config/select_fields.xml,config/suggester.xml,schema.xml,schema/basic_text_chain_with_synonyms.xml,schema/basic_text_chain.xml,schema/date_types.xml,schema/delimited_types.xml,schema/dynamic_fields.xml,schema/library_types.xml,schema/numeric_types.xml,schema/primative_types.xml,schema/stemming,schema/text_types.xml,schema/token_fixing_charfilter.txt,schema/stemming/hunspellstemmer.xml,schema/stemming/kstemmer.xml,schema/stemming/snowball_stemmer.xml,schema/stemming/stemdict.tsv,syn.txt,lang/en_US.aff,lang/en_US.dic,lang/stopwords_en.txt</str>
+      <str name="confFiles">solrconfig.xml,config/select_edismax.xml,config/select_fields.xml,config/suggester.xml,schema.xml,schema/basic_text_chain_with_synonyms.xml,schema/basic_text_chain.xml,schema/date_types.xml,schema/delimited_types.xml,schema/dynamic_fields.xml,schema/library_types.xml,schema/numeric_types.xml,schema/primative_types.xml,schema/stemming,schema/text_types.xml,schema/token_fixing_charfilter.txt,schema/stemming/hunspellstemmer.xml,schema/stemming/kstemmer.xml,schema/stemming/snowball_stemmer.xml,schema/stemming/stemdict.tsv,syn.txt,lang/en_US.aff,lang/en_US.dic,lang/stopwords_en.txt,lib/myupdateprocessor.jar</str>
     </lst>
     <lst name="slave">
       <str name="enable">${enable.slave:false}</str>
