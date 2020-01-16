@@ -3,7 +3,7 @@
     In addition to all the dynamicField/copyField stuff, we'll
     also set up a couple easy dynamicType definitions for
     common cases where we want simpler resulting field names -->
-<!-- Sort types have to be single valued; we'll use ssort for
+<!-- Sort types have to be single valued; we'll use sort for
       string sort and isort for integer sort. In both cases,
       if you specify a stored value, it'll show up as a string
       named <fieldname>_sort --> 
