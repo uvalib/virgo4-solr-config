@@ -220,9 +220,18 @@
        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
    <updateRequestProcessorChain name="multiple-clones" default="true" >
      <processor class="solr.LogUpdateProcessorFactory" />
-     <!-- <processor class="solr.MyTemplateUpdateProcessorFactory" >
+     <processor class="solr.TemplateUpdateProcessorFactory" >
+         <str name="field">full_title_tsearchf_stored:{title_tsearch_stored}</str>
+     </processor> 
+     <processor class="solr.FirstFieldValueUpdateProcessorFactory">
+         <str name="fieldName">full_title_tsearchf_stored</str>
+     </processor>
+     <processor class="solr.MyTemplateUpdateProcessorFactory" >
          <str name="field">full_{pool_f_stored}_title_f:{full_title_tsearchf_stored}</str>
-     </processor>  -->
+     </processor> 
+     <!-- <processor class="solr.UniqFieldsUpdateProcessorFactory">
+       <str name="fieldRegex">full_.*_f_stored}_title_f</str>
+     </processor> -->
      <processor class="solr.RunUpdateProcessorFactory" />
    </updateRequestProcessorChain>
 
