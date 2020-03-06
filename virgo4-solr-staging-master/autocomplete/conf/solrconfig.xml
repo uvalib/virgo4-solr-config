@@ -2,6 +2,8 @@
 <config>
   <luceneMatchVersion>${tests.luceneMatchVersion:LUCENE_6_5_1}</luceneMatchVersion>
 
+  <lib dir="conf/lib" regex=".*\.jar"/>
+
   <!-- Use the classic schema.xml instead of a managed schema -->
   <schemaFactory class="ClassicIndexSchemaFactory"/>
 
@@ -414,24 +416,28 @@
     </arr>
   </requestHandler>
 
-  <!-- config for the admin interface --> 
-  <admin>
-    <defaultQuery>solr</defaultQuery>
-  </admin>
-
   <!-- A request handler for replication support -->
   <requestHandler name="/replication" class="solr.ReplicationHandler" >
     <lst name="master">
       <str name="enable">${enable.master:false}</str>
       <str name="replicateAfter">commit</str>
       <str name="replicateAfter">optimize</str>
-      <str name="confFiles">solrconfig.xml,schema.xml,token_fixing_charfilter.txt,stopwords.txt,synonyms.txt</str>
+      <str name="confFiles">solrconfig.xml,schema.xml,token_fixing_charfilter.txt,synonyms.txt,stopwords.txt,lib/st-AutoComplete-1.6.7.1.0.jar</str>
     </lst>
     <lst name="slave">
       <str name="enable">${enable.slave:false}</str>
-      <str name="masterUrl">${master.url:none}/${solr.core.name}/replication</str>
+      <str name="masterUrl">${master.url:none}</str>
       <str name="pollInterval">00:00:30</str>
     </lst>
+
+
+
+
+
   </requestHandler>
+  <!-- config for the admin interface --> 
+  <admin>
+    <defaultQuery>solr</defaultQuery>
+  </admin>
 
 </config>
