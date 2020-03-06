@@ -422,15 +422,13 @@
       <str name="enable">${enable.master:false}</str>
       <str name="replicateAfter">commit</str>
       <str name="replicateAfter">optimize</str>
-      <str name="confFiles">solrconfig.xml,schema.xml,token_fixing_charfilter.txt,synonyms.txt,stopwords.txt,lib/st-AutoComplete-1.6.7.1.0.jar</str>
+      <str name="confFiles">solrconfig.xml,schema.xml,token_fixing_charfilter.txt,synonyms.txt,stopwords.txt,lib/st-AutoComplete-1.6.7.1.0.jar,lib/st-QuerySegmenter-core-1.3.7.1.0.jar,lib/st-ReSearcher-core-1.12.7.1.0.jar</str>
     </lst>
     <lst name="slave">
       <str name="enable">${enable.slave:false}</str>
       <str name="masterUrl">${master.url:none}</str>
       <str name="pollInterval">00:00:30</str>
     </lst>
-
-
 
 
 
