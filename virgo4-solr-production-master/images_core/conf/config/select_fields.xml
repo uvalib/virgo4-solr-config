@@ -1,0 +1,8 @@
+<str name="fl">
+  id
+  fullrecord
+  shelfkey
+  reverse_shelfkey
+  *_a
+  *_s
+</str>

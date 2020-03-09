@@ -1,0 +1,387 @@
+<str name="mm">6&lt;80%</str>
+<str name="qf">
+  id^100
+  isbn_isbn^100
+  barcode_e^100
+  oclc_e^100
+  lccn_lccn^100
+  call_number_tl
+  title_t^10
+  title_tl^15
+  title_tp^15
+  title_sub_t^5
+  title_sub_tl^8
+  title_sub_tp^8
+  full_title_t^3
+  full_title_tl^5
+  full_title_tp^5
+  title_vern_t^3
+  title_vern_tl^5
+  title_vern_tp^5
+  title_added_entry_t
+  title_added_entry_tl^2
+  title_added_entry_tp^2
+  title_series_t
+  title_series_tl^2
+  title_series_tp^2
+  title_notes_t
+  title_notes_tl^2
+  title_notes_tp^2
+  title_uniform_t
+  title_uniform_tl^2
+  title_uniform_tp^2
+  title_alternate_t
+  title_alternate_tl^2
+  title_alternate_tp^2
+  author_t^5
+  author_tp^8
+  author_tl^10
+  author_added_entry_t^2
+  author_added_entry_tp^5
+  author_added_entry_tl^5
+  author_directors_t
+  author_directors_tp^2
+  subject_t^5
+  subject_tp^10
+  subject_tl^15
+  subject_summary_t
+  subject_summary_tp^2
+  subject_summary_tl^2
+  subject_era_t^2
+  subject_era_tp^4
+</str>
+<str name="pf">
+  title_t^10
+  title_tl^15
+  title_tp^15
+  title_sub_t^5
+  title_sub_tl^8
+  title_sub_tp^8
+  full_title_t^3
+  full_title_tl^5
+  full_title_tp^5
+  title_vern_t^3
+  title_vern_tl^5
+  title_vern_tp^5
+  title_added_entry_t
+  title_added_entry_tl^2
+  title_added_entry_tp^2
+  title_series_t
+  title_series_tl^2
+  title_series_tp^2
+  title_notes_t
+  title_notes_tl^2
+  title_notes_tp^2
+  title_uniform_t
+  title_uniform_tl^2
+  title_uniform_tp^2
+  title_alternate_t
+  title_alternate_tl^2
+  title_alternate_tp^2
+  author_t^5
+  author_tp^8
+  author_tl^10
+  author_added_entry_t^2
+  author_added_entry_tp^5
+  author_added_entry_tl^5
+  author_directors_t
+  author_directors_tp^2
+  subject_t^5
+  subject_tp^10
+  subject_tl^15
+  subject_summary_t
+  subject_summary_tp^2
+  subject_summary_tl^2
+  subject_era_t^2
+  subject_era_tp^4
+</str>
+<str name="title_qf">
+  title_t^10
+  title_tl^15
+  title_tp^15
+  title_sub_t^5
+  title_sub_tl^8
+  title_sub_tp^8
+  full_title_t^3
+  full_title_tl^5
+  full_title_tp^5
+  title_vern_t^3
+  title_vern_tl^5
+  title_vern_tp^5
+  title_added_entry_t
+  title_added_entry_tl^2
+  title_added_entry_tp^2
+  title_series_t
+  title_series_tl^2
+  title_series_tp^2
+  title_notes_t
+  title_notes_tl^2
+  title_notes_tp^2
+  title_uniform_t
+  title_uniform_tl^2
+  title_uniform_tp^2
+  title_alternate_t
+  title_alternate_tl^2
+  title_alternate_tp^2
+</str>
+<str name="title_pf">
+  title_t^10
+  title_tl^15
+  title_tp^15
+  title_sub_t^5
+  title_sub_tl^8
+  title_sub_tp^8
+  full_title_t^3
+  full_title_tl^5
+  full_title_tp^5
+  title_vern_t^3
+  title_vern_tl^5
+  title_vern_tp^5
+  title_added_entry_t
+  title_added_entry_tl^2
+  title_added_entry_tp^2
+  title_series_t
+  title_series_tl^2
+  title_series_tp^2
+  title_notes_t
+  title_notes_tl^2
+  title_notes_tp^2
+  title_uniform_t
+  title_uniform_tl^2
+  title_uniform_tp^2
+  title_alternate_t
+  title_alternate_tl^2
+  title_alternate_tp^2
+</str>
+
+<str name="author_qf">
+  author_t^5
+  author_tp^8
+  author_tl^10
+  author_e
+  author_added_entry_t^2
+  author_added_entry_tp^5
+  author_added_entry_tl^5
+  author_directors_t
+  author_directors_tp^2
+  author_directors_tl^3
+  author_directors_e
+</str>
+<str name="author_pf">
+  author_t^5
+  author_tp^8
+  author_tl^10
+  author_added_entry_t^2
+  author_added_entry_tp^5
+  author_added_entry_tl^5
+  author_directors_t
+  author_directors_tp^2
+  author_directors_tl^3
+  author_directors_e
+</str>
+
+<str name="subject_qf">
+  subject_t^5
+  subject_tp^10
+  subject_tl^15
+  subject_summary_t
+  subject_summary_tp^2
+  subject_summary_tl^2
+  subject_era_t^2
+  subject_era_tp^4
+  subject_era_tl^6
+</str>
+<str name="subject_pf">
+  subject_t^5
+  subject_tp^10
+  subject_tl^15
+  subject_summary_t
+  subject_summary_tp^2
+  subject_summary_tl^2
+  subject_era_t^2
+  subject_era_tp^4
+</str>
+
+<str name="identifier_qf">
+  id
+  isbn_isbn
+  barcode_e
+  oclc_e
+  lccn_lccn
+  call_number_tl
+</str>
+<str name="identifier_pf">
+  id
+  isbn_isbn
+  barcode_e
+  oclc_e
+  lccn_lccn
+  call_number_tl
+</str>
+
+
+<str name="isbn_issn_qf">
+  isbn_isbn_str
+  issn_linking_num
+  issn_primary_num
+  issn_series_num
+</str>
+<!-- startswith -->
+<str name="startswith_qf">
+  title_tl^15
+  title_sub_tl^8
+  full_title_tl^5
+  title_vern_tl^5
+  title_added_entry_tl^2
+  title_series_tl^2
+  title_notes_tl^2
+  title_uniform_tl^2
+  title_alternate_tl^2
+  author_tl^10
+  author_added_entry_tl^5
+  author_directors_tl
+  subject_tl^15
+  subject_summary_tl^2
+  subject_era_tl
+</str>
+<str name="startswith_pf">
+  title_tl^15
+  title_sub_tl^8
+  full_title_tl^5
+  title_vern_tl^5
+  title_added_entry_tl^2
+  title_series_tl^2
+  title_notes_tl^2
+  title_uniform_tl^2
+  title_alternate_tl^2
+  author_tl^10
+  author_added_entry_tl^5
+  author_directors_tl
+  subject_tl^15
+  subject_summary_tl^2
+  subject_era_tl
+</str>
+<str name="title_startswith_qf">
+  title_tl^15
+  title_sub_tl^8
+  full_title_tl^5
+  title_vern_tl^5
+  title_added_entry_tl^2
+  title_series_tl^2
+  title_notes_tl^2
+  title_uniform_tl^2
+  title_alternate_tl^2
+</str>
+<str name="title_startswith_pf">
+  title_tl^15
+  title_sub_tl^8
+  full_title_tl^5
+  title_vern_tl^5
+  title_added_entry_tl^2
+  title_series_tl^2
+  title_notes_tl^2
+  title_uniform_tl^2
+  title_alternate_tl^2
+</str>
+
+<str name="author_startswith_qf">
+  author_tl^10
+  author_added_entry_tl^5
+  author_directors_tl^3
+</str>
+<str name="author_startswith_pf">
+  author_tl^10
+  author_added_entry_tl^5
+  author_directors_tl^3
+</str>
+
+<str name="subject_startswith_qf">
+  subject_tl^15
+  subject_summary_tl^2
+  subject_era_tl^6
+</str>
+<str name="subject_startswith_pf">
+  subject_tl^15
+  subject_summary_tl^2
+  subject_era_tl^4
+</str>
+
+<str name="nostem_qf">
+  title_tp^15
+  title_sub_tp^8
+  full_title_tp^5
+  title_vern_tp^5
+  title_added_entry_tp^2
+  title_series_tp^2
+  title_notes_tp^2
+  title_uniform_tp^2
+  title_alternate_tp^2
+  author_tp^8
+  author_added_entry_tp^5
+  author_directors_tp^2
+  subject_tp^10
+  subject_summary_tp^2
+  subject_era_tp^4
+</str>
+<str name="nostem_pf">
+  title_tp^15
+  title_sub_tp^8
+  full_title_tp^5
+  title_vern_tp^5
+  title_added_entry_tp^2
+  title_series_tp^2
+  title_notes_tp^2
+  title_uniform_tp^2
+  title_alternate_tp^2
+  author_tp^8
+  author_added_entry_tp^5
+  author_directors_tp^2
+  subject_tp^10
+  subject_summary_tp^2
+  subject_era_tp^4
+</str>
+<str name="title_nostem_qf">
+  title_tp^15
+  title_sub_tp^8
+  full_title_tp^5
+  title_vern_tp^5
+  title_added_entry_tp^2
+  title_series_tp^2
+  title_notes_tp^2
+  title_uniform_tp^2
+  title_alternate_tp^2
+</str>
+<str name="title_nostem_pf">
+  title_tp^15
+  title_sub_tp^8
+  full_title_tp^5
+  title_vern_tp^5
+  title_added_entry_tp^2
+  title_series_tp^2
+  title_notes_tp^2
+  title_uniform_tp^2
+  title_alternate_tp^2
+</str>
+
+<str name="author_nostem_qf">
+  author_tp^8
+  author_added_entry_tp^5
+  author_directors_tp^2
+</str>
+<str name="author_nostem_pf">
+  author_tp^8
+  author_added_entry_tp^5
+  author_directors_tp^2
+</str>
+
+<str name="subject_nostem_qf">
+  subject_tp^10
+  subject_summary_tp^2
+  subject_era_tp^4
+</str>
+<str name="subject_nostem_pf">
+  subject_tp^10
+  subject_summary_tp^2
+  subject_era_tp^4
+</str>
+
