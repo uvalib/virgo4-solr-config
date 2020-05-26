@@ -150,6 +150,8 @@
   <field name="prefixTok" type="prefixTokType" indexed="true" stored="false"/>
   <field name="pureCompletion" type="prefixUnTokType" indexed="true" stored="false"/>
   <field name="resalePrice" type="float" indexed="true" required="false" stored="true"/>
+  <field name="count" type="int" indexed="true" required="false" stored="true"/>
+  <field name="date" type="string" indexed="true" required="false" stored="true"/>
   <field name="thumbnail_url" type="string" indexed="false" required="false" stored="true"/>
   <field name="type" type="string" indexed="true" required="false" stored="true"/>
   <field name="type_description" type="string" indexed="false" required="false" stored="true"/>
