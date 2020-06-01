@@ -9,6 +9,43 @@
   title_t^10
   title_tl^15
   title_tp^15
+  author_t^5
+  author_tp^8
+  author_tl^10
+  subject_t^5
+  subject_tp^10
+  subject_tl^15
+  all_fields_t
+</str>
+<str name="pf">
+  id^100
+  isbn_isbn^100
+  barcode_e^100
+  oclc_e^100
+  lccn_lccn^100
+  call_number_tl
+  title_t^10
+  title_tl^15
+  title_tp^15
+  author_t^5
+  author_tp^8
+  author_tl^10
+  subject_t^5
+  subject_tp^10
+  subject_tl^15
+  all_fields_t
+</str>
+
+<str name="keyword_qf">
+  id^100
+  isbn_isbn^100
+  barcode_e^100
+  oclc_e^100
+  lccn_lccn^100
+  call_number_tl
+  title_t^10
+  title_tl^15
+  title_tp^15
   title_sub_t^5
   title_sub_tl^8
   title_sub_tp^8
@@ -50,7 +87,7 @@
   subject_era_t^2
   subject_era_tp^4
 </str>
-<str name="pf">
+<str name="keyword_pf">
   title_t^10
   title_tl^15
   title_tp^15
@@ -200,6 +237,25 @@
   subject_summary_tl^2
   subject_era_t^2
   subject_era_tp^4
+  subject_era_tl^6
+</str>
+<str name="published_qf">
+  publisher_name_t^5
+  publisher_name_tp^10
+  publisher_name_tl^15
+  published_location_t
+  published_location_tp^2
+  published_location_tl^2
+  published_t^2
+</str>
+<str name="published_tf">
+  publisher_name_t^5
+  publisher_name_tp^10
+  publisher_name_tl^15
+  published_location_t
+  published_location_tp^2
+  published_location_tl^2
+  published_t^2
 </str>
 
 <str name="identifier_qf">
