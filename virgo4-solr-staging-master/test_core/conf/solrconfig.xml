@@ -231,7 +231,7 @@
      </processor> 
       <processor class="solr.CloneFieldUpdateProcessorFactory">
         <lst name="source">
-          <str name="fieldRegex">.*_tsearch_.*</str>
+          <str name="fieldRegex">.*_tsearch.*</str>
           <lst name="exclude">
             <str name="fieldRegex">all_fields_tsearch.*</str>
           </lst>
