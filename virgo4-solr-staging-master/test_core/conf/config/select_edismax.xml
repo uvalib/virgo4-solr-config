@@ -5,7 +5,7 @@
   barcode_e^100
   oclc_e^100
   lccn_lccn^100
-  call_number_tl
+  call_number_tl^100
   title_t^10
   title_tl^15
   title_tp^15
@@ -23,7 +23,7 @@
   barcode_e^100
   oclc_e^100
   lccn_lccn^100
-  call_number_tl
+  call_number_tl^100
   title_t^10
   title_tl^15
   title_tp^15
