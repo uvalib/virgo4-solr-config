@@ -5,6 +5,7 @@
   barcode_e^100
   oclc_e^100
   lccn_lccn^100
+  identifier_e^100
   call_number_tl^100
   title_t^10
   title_tl^15
@@ -23,6 +24,7 @@
   barcode_e^100
   oclc_e^100
   lccn_lccn^100
+  identifier_e^100
   call_number_tl^100
   title_t^10
   title_tl^15
@@ -264,6 +266,7 @@
   barcode_e
   oclc_e
   lccn_lccn
+  identifier_e
   call_number_tl
 </str>
 <str name="identifier_pf">
@@ -272,6 +275,7 @@
   barcode_e
   oclc_e
   lccn_lccn
+  identifier_e
   call_number_tl
 </str>
 
