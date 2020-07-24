@@ -3,6 +3,7 @@
   id^100
   workIdentifier_e^100
   identifier_e^100
+  all_fields_t
   title_t^10
   title_tl^15
   title_tp^15
@@ -53,6 +54,7 @@
   workIdentifier_e^100
   identifier_e^100
   call_number_tl
+  all_fields_t
   title_t^10
   title_tl^15
   title_tp^15
