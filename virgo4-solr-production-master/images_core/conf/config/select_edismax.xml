@@ -3,6 +3,8 @@
   id^100
   workIdentifier_e^100
   identifier_e^100
+  collection_call_number_tl^100
+  all_fields_t
   title_t^10
   title_tl^15
   title_tp^15
@@ -30,17 +32,33 @@
   author_t^5
   author_tp^8
   author_tl^10
-  author_added_entry_t^2
-  author_added_entry_tp^5
-  author_added_entry_tl^5
+  artist_facet_t^5
+  artist_facet_tp^8
+  artist_facet_tl^10
+  author_facet_t^5
+  author_facet_tp^8
+  author_facet_tl^10
+  photographer_facet_t^2
+  photographer_facet_tp^5
+  photographer_facet_tl^5
   subject_t^5
   subject_tp^10
   subject_tl^15
-  subject_summary_t
-  subject_summary_tp^2
-  subject_summary_tl^2
+  abstract_t
+  abstract_tp^2
+  abstract_tl^2
   subject_era_t^2
   subject_era_tp^4
+  subject_era_tl^4
+  subject_topic_t^2
+  subject_topic_tp^4
+  subject_topic_tl^4
+  topic_form_genre_t^2
+  topic_form_genre_tp^4
+  topic_form_genre_tl^4
+  vanity_fair_category_t^2
+  vanity_fair_category_tp^4
+  vanity_fair_category_tl^4
   region_t
   region_tp^2
   region_tl^2
@@ -52,7 +70,8 @@
   id^100
   workIdentifier_e^100
   identifier_e^100
-  call_number_tl
+  collection_call_number_tl^100
+  all_fields_t
   title_t^10
   title_tl^15
   title_tp^15
@@ -80,17 +99,33 @@
   author_t^5
   author_tp^8
   author_tl^10
-  author_added_entry_t^2
-  author_added_entry_tp^5
-  author_added_entry_tl^5
+  artist_facet_t^5
+  artist_facet_tp^8
+  artist_facet_tl^10
+  author_facet_t^5
+  author_facet_tp^8
+  author_facet_tl^10
+  photographer_facet_t^2
+  photographer_facet_tp^5
+  photographer_facet_tl^5
   subject_t^5
   subject_tp^10
   subject_tl^15
-  subject_summary_t
-  subject_summary_tp^2
-  subject_summary_tl^2
+  abstract_t
+  abstract_tp^2
+  abstract_tl^2
   subject_era_t^2
   subject_era_tp^4
+  subject_era_tl^4
+  subject_topic_t^2
+  subject_topic_tp^4
+  subject_topic_tl^4
+  topic_form_genre_t^2
+  topic_form_genre_tp^4
+  topic_form_genre_tl^4
+  vanity_fair_category_t^2
+  vanity_fair_category_tp^4
+  vanity_fair_category_tl^4
   region_t
   region_tp^2
   region_tl^2
@@ -149,6 +184,15 @@
   author_t^5
   author_tp^8
   author_tl^10
+  artist_facet_t^5
+  artist_facet_tp^8
+  artist_facet_tl^10
+  author_facet_t^5
+  author_facet_tp^8
+  author_facet_tl^10
+  photographer_facet_t^2
+  photographer_facet_tp^5
+  photographer_facet_tl^5
   author_added_entry_t^2
   author_added_entry_tp^5
   author_added_entry_tl^5
@@ -157,6 +201,15 @@
   author_t^5
   author_tp^8
   author_tl^10
+  artist_facet_t^5
+  artist_facet_tp^8
+  artist_facet_tl^10
+  author_facet_t^5
+  author_facet_tp^8
+  author_facet_tl^10
+  photographer_facet_t^2
+  photographer_facet_tp^5
+  photographer_facet_tl^5
   author_added_entry_t^2
   author_added_entry_tp^5
   author_added_entry_tl^5
@@ -166,11 +219,21 @@
   subject_t^5
   subject_tp^10
   subject_tl^15
-  subject_summary_t
-  subject_summary_tp^2
-  subject_summary_tl^2
+  abstract_t
+  abstract_tp^2
+  abstract_tl^2
   subject_era_t^2
   subject_era_tp^4
+  subject_era_tl^4
+  subject_topic_t^2
+  subject_topic_tp^4
+  subject_topic_tl^4
+  topic_form_genre_t^2
+  topic_form_genre_tp^4
+  topic_form_genre_tl^4
+  vanity_fair_category_t^2
+  vanity_fair_category_tp^4
+  vanity_fair_category_tl^4
   region_t
   region_tp^2
   region_tl^2
@@ -179,11 +242,21 @@
   subject_t^5
   subject_tp^10
   subject_tl^15
-  subject_summary_t
-  subject_summary_tp^2
-  subject_summary_tl^2
+  abstract_t
+  abstract_tp^2
+  abstract_tl^2
   subject_era_t^2
   subject_era_tp^4
+  subject_era_tl^4
+  subject_topic_t^2
+  subject_topic_tp^4
+  subject_topic_tl^4
+  topic_form_genre_t^2
+  topic_form_genre_tp^4
+  topic_form_genre_tl^4
+  vanity_fair_category_t^2
+  vanity_fair_category_tp^4
+  vanity_fair_category_tl^4
   region_t
   region_tp^2
   region_tl^2
@@ -193,11 +266,13 @@
   id^100
   workIdentifier_e^100
   identifier_e^100
+  collection_call_number_tl^100
 </str>
 <str name="identifier_pf">
   id^100
   workIdentifier_e^100
   identifier_e^100
+  collection_call_number_tl^100
 </str>
 
 
@@ -214,7 +289,7 @@
   author_tl^10
   author_added_entry_tl^5
   subject_tl^15
-  subject_summary_tl^2
+  abstract_tl^2
   subject_era_tl^4
   region_tl^2
   workType_tl
@@ -231,7 +306,7 @@
   author_tl^10
   author_added_entry_tl^5
   subject_tl^15
-  subject_summary_tl^2
+  abstract_tl^2
   subject_era_tl^4
   region_tl^2
   workType_tl
@@ -266,13 +341,13 @@
 
 <str name="subject_startswith_qf">
   subject_tl^15
-  subject_summary_tl^2
+  abstract_tl^2
   subject_era_tl^4
   region_tl^2
 </str>
 <str name="subject_startswith_pf">
   subject_tl^15
-  subject_summary_tl^2
+  abstract_tl^2
   subject_era_tl^4
   region_tl^2
 </str>
@@ -289,7 +364,7 @@
   author_tp^10
   author_alternate_tp^5
   subject_tp^15
-  subject_summary_tp^2
+  abstract_tp^2
   subject_era_tp^4
   region_tp^2
   workType_tp
@@ -306,7 +381,7 @@
   author_tp^10
   author_added_entry_tp^5
   subject_tp^15
-  subject_summary_tp^2
+  abstract_tp^2
   subject_era_tp^4
   region_tp^2
   workType_tp
@@ -341,13 +416,13 @@
 
 <str name="subject_nostem_qf">
   subject_tp^10
-  subject_summary_tp^2
+  abstract_tp^2
   subject_era_tp^4
   region_tp^2
 </str>
 <str name="subject_nostem_pf">
   subject_tp^10
-  subject_summary_tp^2
+  abstract_tp^2
   subject_era_tp^4
   region_tp^2
 </str>
