@@ -10,6 +10,9 @@
   title_t^10
   title_tl^15
   title_tp^15
+  full_title_t^10
+  full_title_tl^15
+  full_title_tp^15
   author_t^5
   author_tp^8
   author_tl^10
@@ -29,6 +32,9 @@
   title_t^10
   title_tl^15
   title_tp^15
+  full_title_t^10
+  full_title_tl^15
+  full_title_tp^15
   author_t^5
   author_tp^8
   author_tl^10
@@ -205,6 +211,12 @@
   author_directors_tp^2
   author_directors_tl^3
   author_directors_e
+  responsibility_statement_t^2
+  responsibility_statement_tp^5
+  responsibility_statement_tl^5
+  responsibility_statement_vern_t^2
+  responsibility_statement_vern_tp^5
+  responsibility_statement_vern_tl^5
 </str>
 <str name="author_pf">
   author_t^5
@@ -217,6 +229,12 @@
   author_directors_tp^2
   author_directors_tl^3
   author_directors_e
+  responsibility_statement_t^2
+  responsibility_statement_tp^5
+  responsibility_statement_tl^5
+  responsibility_statement_vern_t^2
+  responsibility_statement_vern_tp^5
+  responsibility_statement_vern_tl^5
 </str>
 
 <str name="subject_qf">
