@@ -38,3 +38,7 @@
 
 <field name="fullrecord" type="string" indexed="false" stored="true" required="false" multiValued="false" docValues="false" />
 
+<field name="shelfkey" type="string" indexed="true" stored="true" required="false" multiValued="false" docValues="true" />
+
+<field name="reverse_shelfkey" type="string" indexed="true" stored="true" required="false" multiValued="false" docValues="true" />
+
