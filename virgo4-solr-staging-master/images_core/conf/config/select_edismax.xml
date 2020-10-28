@@ -180,6 +180,31 @@
   title_uniform_tp^2
 </str>
 
+
+<str name="journal_title_qf">
+  journal_title_t^10
+  journal_title_tl^15
+  journal_title_tp^15
+  journal_title_addnl_t
+  journal_title_addnl_tl^3
+  journal_title_addnl_tp^3
+  full_journal_title_t^15
+  full_journal_title_tl^20
+  full_journal_title_tp^20
+</str>
+
+<str name="journal_title_pf">
+  journal_title_t^10
+  journal_title_tl^15
+  journal_title_tp^15
+  journal_title_addnl_t
+  journal_title_addnl_tl^3
+  journal_title_addnl_tp^3
+  full_journal_title_t^15
+  full_journal_title_tl^20
+  full_journal_title_tp^20
+</str>
+
 <str name="author_qf">
   author_t^5
   author_tp^8
