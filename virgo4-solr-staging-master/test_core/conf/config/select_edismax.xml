@@ -6,6 +6,7 @@
   oclc_e^100
   lccn_lccn^100
   identifier_e^100
+  alternate_id_str^100
   call_number_tl^100
   title_t^10
   title_tl^15
@@ -28,6 +29,7 @@
   oclc_e^100
   lccn_lccn^100
   identifier_e^100
+  alternate_id_str^100
   call_number_tl^100
   title_t^10
   title_tl^15
@@ -309,6 +311,7 @@
   oclc_e
   lccn_lccn
   identifier_e
+  alternate_id_str
   call_number_tl
 </str>
 <str name="identifier_pf">
@@ -318,6 +321,7 @@
   oclc_e
   lccn_lccn
   identifier_e
+  alternate_id_str
   call_number_tl
 </str>
 
