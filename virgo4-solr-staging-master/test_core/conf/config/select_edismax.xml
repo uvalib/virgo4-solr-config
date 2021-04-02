@@ -5,6 +5,7 @@
   barcode_e^100
   oclc_e^100
   issn_e^100
+  upc_e^100
   lccn_lccn^100
   identifier_e^100
   alternate_id_str^100
@@ -29,6 +30,7 @@
   barcode_e^100
   oclc_e^100
   issn_e^100
+  upc_e^100
   lccn_lccn^100
   identifier_e^100
   alternate_id_str^100
@@ -54,6 +56,7 @@
   barcode_e^100
   oclc_e^100
   issn_e^100
+  upc_e^100
   lccn_lccn^100
   call_number_tl
   title_t^10
@@ -313,6 +316,7 @@
   barcode_e
   oclc_e
   issn_e
+  upc_e
   lccn_lccn
   identifier_e
   alternate_id_str
@@ -324,6 +328,7 @@
   barcode_e
   oclc_e
   issn_e
+  upc_e
   lccn_lccn
   identifier_e
   alternate_id_str
