@@ -12,15 +12,15 @@
   call_number_tl^100
   title_t^10
   title_tl^15
-  title_tp^15
+  title_tp^35
   full_title_t^10
   full_title_tl^15
-  full_title_tp^15
+  full_title_tp^35
   author_t^5
-  author_tp^8
+  author_tp^38
   author_tl^10
   subject_t^5
-  subject_tp^10
+  subject_tp^20
   subject_tl^15
   all_fields_t
 </str>
@@ -29,23 +29,23 @@
   isbn_isbn^100
   barcode_e^100
   oclc_e^100
-  upc_e^100
   issn_e^100
+  upc_e^100
   lccn_lccn^100
   identifier_e^100
   alternate_id_str^100
   call_number_tl^100
   title_t^10
   title_tl^15
-  title_tp^15
+  title_tp^35
   full_title_t^10
   full_title_tl^15
-  full_title_tp^15
+  full_title_tp^35
   author_t^5
-  author_tp^8
+  author_tp^38
   author_tl^10
   subject_t^5
-  subject_tp^10
+  subject_tp^20
   subject_tl^15
   all_fields_t^10
 </str>
@@ -61,251 +61,251 @@
   call_number_tl
   title_t^10
   title_tl^15
-  title_tp^15
+  title_tp^35
   title_sub_t^5
   title_sub_tl^8
-  title_sub_tp^8
+  title_sub_tp^28
   full_title_t^3
   full_title_tl^5
-  full_title_tp^5
+  full_title_tp^15
   title_vern_t^3
   title_vern_tl^5
-  title_vern_tp^5
+  title_vern_tp^15
   title_added_entry_t
   title_added_entry_tl^2
-  title_added_entry_tp^2
+  title_added_entry_tp^6
   title_series_t
   title_series_tl^2
-  title_series_tp^2
+  title_series_tp^6
   title_notes_t
   title_notes_tl^2
-  title_notes_tp^2
+  title_notes_tp^6
   title_uniform_t
   title_uniform_tl^2
-  title_uniform_tp^2
+  title_uniform_tp^6
   title_alternate_t
   title_alternate_tl^2
-  title_alternate_tp^2
+  title_alternate_tp^6
   author_t^5
-  author_tp^8
+  author_tp^28
   author_tl^10
   author_added_entry_t^2
-  author_added_entry_tp^5
+  author_added_entry_tp^15
   author_added_entry_tl^5
-  author_directors_t
-  author_directors_tp^2
+  author_directors_t^5
+  author_directors_tp^28
   subject_t^5
-  subject_tp^10
+  subject_tp^20
   subject_tl^15
   subject_summary_t
-  subject_summary_tp^2
+  subject_summary_tp^6
   subject_summary_tl^2
   subject_era_t^2
-  subject_era_tp^4
+  subject_era_tp^8
 </str>
 <str name="keyword_pf">
   title_t^10
   title_tl^15
-  title_tp^15
+  title_tp^35
   title_sub_t^5
   title_sub_tl^8
-  title_sub_tp^8
+  title_sub_tp^28
   full_title_t^3
   full_title_tl^5
-  full_title_tp^5
+  full_title_tp^15
   title_vern_t^3
   title_vern_tl^5
-  title_vern_tp^5
+  title_vern_tp^15
   title_added_entry_t
   title_added_entry_tl^2
-  title_added_entry_tp^2
+  title_added_entry_tp^6
   title_series_t
   title_series_tl^2
-  title_series_tp^2
+  title_series_tp^6
   title_notes_t
   title_notes_tl^2
-  title_notes_tp^2
+  title_notes_tp^6
   title_uniform_t
   title_uniform_tl^2
-  title_uniform_tp^2
+  title_uniform_tp^6
   title_alternate_t
   title_alternate_tl^2
-  title_alternate_tp^2
+  title_alternate_tp^6
   author_t^5
-  author_tp^8
+  author_tp^28
   author_tl^10
   author_added_entry_t^2
-  author_added_entry_tp^5
+  author_added_entry_tp^8
   author_added_entry_tl^5
-  author_directors_t
-  author_directors_tp^2
+  author_directors_t^5
+  author_directors_tp^28
   subject_t^5
-  subject_tp^10
+  subject_tp^20
   subject_tl^15
   subject_summary_t
-  subject_summary_tp^2
+  subject_summary_tp^6
   subject_summary_tl^2
   subject_era_t^2
-  subject_era_tp^4
+  subject_era_tp^8
 </str>
 <str name="title_qf">
   title_t^10
   title_tl^15
-  title_tp^15
+  title_tp^35
   title_sub_t^5
   title_sub_tl^8
-  title_sub_tp^8
+  title_sub_tp^28
   full_title_t^3
   full_title_tl^5
-  full_title_tp^5
+  full_title_tp^15
   title_vern_t^3
   title_vern_tl^5
-  title_vern_tp^5
+  title_vern_tp^15
   title_added_entry_t
   title_added_entry_tl^2
-  title_added_entry_tp^2
-  title_series_t
-  title_series_tl^2
-  title_series_tp^2
+  title_added_entry_tp^6
+  title_series_t^5
+  title_series_tl^8
+  title_series_tp^28
   title_notes_t
   title_notes_tl^2
-  title_notes_tp^2
+  title_notes_tp^6
   title_uniform_t
   title_uniform_tl^2
-  title_uniform_tp^2
+  title_uniform_tp^6
   title_alternate_t
   title_alternate_tl^2
-  title_alternate_tp^2
+  title_alternate_tp^6
 </str>
 <str name="title_pf">
   title_t^10
   title_tl^15
-  title_tp^15
+  title_tp^35
   title_sub_t^5
-  title_sub_tl^8
+  title_sub_tl^28
   title_sub_tp^8
   full_title_t^3
   full_title_tl^5
-  full_title_tp^5
+  full_title_tp^15
   title_vern_t^3
   title_vern_tl^5
-  title_vern_tp^5
+  title_vern_tp^15
   title_added_entry_t
   title_added_entry_tl^2
-  title_added_entry_tp^2
-  title_series_t
-  title_series_tl^2
-  title_series_tp^2
+  title_added_entry_tp^6
+  title_series_t^5
+  title_series_tl^8
+  title_series_tp^28
   title_notes_t
   title_notes_tl^2
-  title_notes_tp^2
+  title_notes_tp^6
   title_uniform_t
   title_uniform_tl^2
-  title_uniform_tp^2
+  title_uniform_tp^6
   title_alternate_t
   title_alternate_tl^2
-  title_alternate_tp^2
+  title_alternate_tp^6
 </str>
 
 <str name="journal_title_qf">
   journal_title_t^10
   journal_title_tl^15
-  journal_title_tp^15
+  journal_title_tp^35
   journal_title_addnl_t
   journal_title_addnl_tl^3
-  journal_title_addnl_tp^3
+  journal_title_addnl_tp^8
   full_journal_title_t^15
   full_journal_title_tl^20
-  full_journal_title_tp^20
+  full_journal_title_tp^40
 </str>
 
 <str name="journal_title_pf">
   journal_title_t^10
   journal_title_tl^15
-  journal_title_tp^15
+  journal_title_tp^35
   journal_title_addnl_t
   journal_title_addnl_tl^3
-  journal_title_addnl_tp^3
+  journal_title_addnl_tp^8
   full_journal_title_t^15
   full_journal_title_tl^20
-  full_journal_title_tp^20
+  full_journal_title_tp^40
 </str>
 
 <str name="author_qf">
   author_t^5
-  author_tp^8
+  author_tp^28
   author_tl^10
   author_e
   author_added_entry_t^2
-  author_added_entry_tp^5
+  author_added_entry_tp^25
   author_added_entry_tl^5
-  author_directors_t
-  author_directors_tp^2
+  author_directors_t^5
+  author_directors_tp^28
   author_directors_tl^3
   author_directors_e
   responsibility_statement_t^2
-  responsibility_statement_tp^5
+  responsibility_statement_tp^15
   responsibility_statement_tl^5
   responsibility_statement_vern_t^2
-  responsibility_statement_vern_tp^5
+  responsibility_statement_vern_tp^15
   responsibility_statement_vern_tl^5
 </str>
 <str name="author_pf">
   author_t^5
-  author_tp^8
+  author_tp^28
   author_tl^10
   author_added_entry_t^2
-  author_added_entry_tp^5
+  author_added_entry_tp^25
   author_added_entry_tl^5
-  author_directors_t
-  author_directors_tp^2
+  author_directors_t^5
+  author_directors_tp^28
   author_directors_tl^3
   author_directors_e
   responsibility_statement_t^2
-  responsibility_statement_tp^5
+  responsibility_statement_tp^15
   responsibility_statement_tl^5
   responsibility_statement_vern_t^2
-  responsibility_statement_vern_tp^5
+  responsibility_statement_vern_tp^15
   responsibility_statement_vern_tl^5
 </str>
 
 <str name="subject_qf">
   subject_t^5
-  subject_tp^10
+  subject_tp^20
   subject_tl^15
   subject_summary_t
-  subject_summary_tp^2
+  subject_summary_tp^8
   subject_summary_tl^2
   subject_era_t^2
-  subject_era_tp^4
+  subject_era_tp^8
   subject_era_tl^6
 </str>
 <str name="subject_pf">
   subject_t^5
-  subject_tp^10
+  subject_tp^20
   subject_tl^15
   subject_summary_t
-  subject_summary_tp^2
+  subject_summary_tp^8
   subject_summary_tl^2
   subject_era_t^2
-  subject_era_tp^4
+  subject_era_tp^8
   subject_era_tl^6
 </str>
 <str name="published_qf">
   publisher_name_t^5
-  publisher_name_tp^10
+  publisher_name_tp^20
   publisher_name_tl^15
   published_location_t
-  published_location_tp^2
+  published_location_tp^8
   published_location_tl^2
   published_t^2
 </str>
 <str name="published_tf">
   publisher_name_t^5
-  publisher_name_tp^10
+  publisher_name_tp^20
   publisher_name_tl^15
   published_location_t
-  published_location_tp^2
+  published_location_tp^8
   published_location_tl^2
   published_t^2
 </str>
