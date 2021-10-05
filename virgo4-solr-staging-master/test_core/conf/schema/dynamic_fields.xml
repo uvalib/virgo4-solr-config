@@ -315,6 +315,7 @@
 
 <dynamicField name="*_large_single" type="string_large" indexed="false" stored="true" multiValued="false" />
 <dynamicField name="*_large_multi" type="string_no_doc" indexed="false" stored="true" multiValued="true" docValues="false" />
+<dynamicField name="*_large_highlight" type="text_suggest" indexed="true" stored="true" multiValued="true" docValues="false" />
 <dynamicField name="*_a" type="string" indexed="false" stored="true" multiValued="true" />
 <dynamicField name="*_s" type="string" indexed="false" stored="true" multiValued="false" />
 <dynamicField name="*"   type="string" indexed="false" stored="true" multiValued="false" />
