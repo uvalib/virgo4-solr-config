@@ -335,6 +335,12 @@
   call_number_tl
 </str>
 
+<str name="fulltext_qf">
+  fulltext_large_highlight
+</str>
+<str name="fulltext_pf">
+  fulltext_large_highlight
+</str>
 
 <str name="isbn_issn_qf">
   isbn_isbn_str
