@@ -132,7 +132,6 @@
 <fieldType class="solr.TextField" name="text_suggest" positionIncrementGap="&tpig;">
   <analyzer>
     <tokenizer class="solr.StandardTokenizerFactory"/>
-    <filter class="solr.StandardFilterFactory"/>
     <filter class="solr.LowerCaseFilterFactory"/>
   </analyzer>
 </fieldType>

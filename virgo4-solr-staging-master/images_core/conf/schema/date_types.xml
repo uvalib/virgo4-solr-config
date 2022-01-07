@@ -9,7 +9,7 @@
 
   <fieldType name="date" class="solr.DatePointField" omitNorms="false" sortMissingLast="true"/>
 
-  <fieldType name="daterange" class="solr.DateRangeField" omitNorms="false" sortMissingLast="true"/>
+  <fieldType name="daterange" class="solr.DateRangeField" sortMissingLast="true"/>
 
   <dynamicField name="*_daterange" type="daterange" multiValued="true" indexed="true" stored="true"/>
 
