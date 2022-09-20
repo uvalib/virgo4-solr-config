@@ -34,6 +34,26 @@
   </analyzer>
 </fieldType>
 
+    <fieldtype name="text_ocr" class="solr.TextField" storeOffsetsWithPositions="true" 
+               termVectors="true">
+      <analyzer type="index">
+        <!-- For loading external files as field values during indexing -->
+        <charFilter class="de.digitalcollections.solrocr.lucene.filters.ExternalUtf8ContentFilterFactory" />
+        <!-- For converting OCR to plaintext -->
+        <charFilter class="de.digitalcollections.solrocr.lucene.filters.OcrCharFilterFactory" />
+        <!-- ...rest of your index analysis chain... -->
+        &basic_text_chain;
+        &stemmer;
+        <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+      </analyzer>
+      <analyzer type="query">
+        <!-- your query analysis chain, should not include the character filters -->
+        &basic_text_chain;
+        &stemmer;
+        <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+      </analyzer>
+    </fieldtype>
+
 
 <!-- text_keep_accent
      Same as text, but without stemming -->
@@ -125,6 +145,18 @@
             />
     <filter class="solr.TrimFilterFactory"/>
     <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>            
+  </analyzer>
+</fieldType>
+
+<fieldType name="termbrowse" class="solr.TextField" positionIncrementGap="&tpig;">
+  <analyzer>
+    <charFilter class="solr.ICUNormalizer2CharFilterFactory" name="nfkc_cf" />
+    <charFilter class="solr.MappingCharFilterFactory" mapping="&char_expansion_file;"/>
+    <tokenizer class="solr.KeywordTokenizerFactory"/>
+    <filter class="solr.ICUFoldingFilterFactory"/>
+    <filter class="solr.CJKWidthFilterFactory"/>
+    <filter class="solr.CJKBigramFilterFactory"/>
+    <filter class="solr.DecimalDigitFilterFactory"/>
   </analyzer>
 </fieldType>
 

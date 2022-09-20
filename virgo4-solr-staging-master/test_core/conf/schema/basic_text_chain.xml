@@ -26,6 +26,8 @@
 <filter class="solr.ICUFoldingFilterFactory"/>
 <filter class="solr.CJKWidthFilterFactory"/>
 <filter class="solr.CJKBigramFilterFactory"/>
+<filter class="solr.ElisionFilterFactory" ignoreCase="true" articles="lang/contractions_fr.txt"/>
+<filter class="solr.PatternReplaceFilterFactory" pattern="'" replacement="" replace="all"/>
 <filter class="solr.DecimalDigitFilterFactory"/>
 <filter class="solr.KeywordRepeatFilterFactory"/>
 

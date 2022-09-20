@@ -319,3 +319,7 @@
 <dynamicField name="*_a" type="string" indexed="false" stored="true" multiValued="true" />
 <dynamicField name="*_s" type="string" indexed="false" stored="true" multiValued="false" />
 <dynamicField name="*"   type="string" indexed="false" stored="true" multiValued="false" />
+
+<dynamicField name="*_tb" type="termbrowse" indexed="true" stored="true" multiValued="true" termVectors="true" termPositions="true" termOffsets="true"/>
+
+<field name="ocr_text" type="text_ocr" multiValued="false" indexed="true" stored="true" />
