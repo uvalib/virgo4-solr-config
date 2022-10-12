@@ -1,11 +1,14 @@
 <!--
      - ICUNormalizer2CharFilterFactory does nkfc normalization (ICU Normalizer2)
      - MappingCharFilterFactory does char-level expansion, (for example, flats and sharps)
+         RJH added contraction expansion  "'ll" -> "  will"
      - ICUTokenizer does a smarter job of finding work boundaries
      - KeywordRepeatFilterFactory indexes stemmed words twice, once as stemmed and once as given,
        giving additional relevancy to the latter if it matches
      - SynonymFilterFactory for synonyms at the token level
      - CJK* does magical CJK stuff that I don't really understand
+     - RJH added   ElisionFilterFactory to remove french contractions   d'art -> art
+     - RJH added   PatternReplaceFilterFactory to remove all remaining apostrophes
      - The stemmer stems with whatever class is provided (e.g., KStemFilterFactory)
      - DecimalDigitFilterFactory folds decimals (0..9) into their latin equivalents
      - RemoveDuplicates does what it says, esp. important because we'll end up wtih two identical
