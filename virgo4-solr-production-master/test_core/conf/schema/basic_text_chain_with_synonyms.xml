@@ -27,5 +27,7 @@
 <filter class="solr.SynonymFilterFactory" synonyms="&synonym_file;" ignoreCase="true" expand="true"/>
 <filter class="solr.CJKWidthFilterFactory"/>
 <filter class="solr.CJKBigramFilterFactory"/>
+<filter class="solr.ElisionFilterFactory" ignoreCase="true" articles="lang/contractions_fr.txt"/>
+<filter class="solr.PatternReplaceFilterFactory" pattern="'" replacement="" replace="all"/>
 <filter class="solr.DecimalDigitFilterFactory"/>
 <filter class="solr.KeywordRepeatFilterFactory"/>

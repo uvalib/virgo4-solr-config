@@ -24,6 +24,12 @@
 "″"  => "''"
 "‴" => "'''"
 
+# Apostrophes
+"'s" => "s"
+"'ll" => " will"
+"n't" => " not"
+"'ve" => " have"
+"'re" => " are"
 
 # Numeric Subscripts
 # Commented out, because they're handled by the normalizer

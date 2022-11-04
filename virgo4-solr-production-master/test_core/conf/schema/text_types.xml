@@ -34,7 +34,6 @@
   </analyzer>
 </fieldType>
 
-
 <!-- text_keep_accent
      Same as text, but without stemming -->
 
@@ -125,6 +124,18 @@
             />
     <filter class="solr.TrimFilterFactory"/>
     <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>            
+  </analyzer>
+</fieldType>
+
+<fieldType name="termbrowse" class="solr.TextField" positionIncrementGap="&tpig;">
+  <analyzer>
+    <charFilter class="solr.ICUNormalizer2CharFilterFactory" name="nfkc_cf" />
+    <charFilter class="solr.MappingCharFilterFactory" mapping="&char_expansion_file;"/>
+    <tokenizer class="solr.KeywordTokenizerFactory"/>
+    <filter class="solr.ICUFoldingFilterFactory"/>
+    <filter class="solr.CJKWidthFilterFactory"/>
+    <filter class="solr.CJKBigramFilterFactory"/>
+    <filter class="solr.DecimalDigitFilterFactory"/>
   </analyzer>
 </fieldType>
 
