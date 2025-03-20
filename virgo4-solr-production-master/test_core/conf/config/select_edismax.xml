@@ -342,6 +342,17 @@
   fulltext_large_highlight
 </str>
 
+<str name="series_qf">
+  title_series_t
+  title_series_tl
+  title_series_tp
+</str>
+<str name="series_pf">
+  title_series_t
+  title_series_tl
+  title_series_tp
+</str>
+
 <str name="isbn_issn_qf">
   isbn_isbn_str
   issn_linking_num
